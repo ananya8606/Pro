@@ -259,4 +259,5 @@ const ProductCreate = ({ history }) => {
     </div>
   )
 }
+
 export default ProductCreate
