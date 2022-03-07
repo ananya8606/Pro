@@ -14,7 +14,7 @@ cloudinaryconfig.config({
   cloud_name:'ananyaiiitr',
   api_key:'574957229525692',
   api_secret:'uZ_gRY43x6b2MCBNYPGcLR75RjM',
-})
+});
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
     console.log('value', path.extname(file.originalname))
