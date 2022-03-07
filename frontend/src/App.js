@@ -56,8 +56,8 @@ const App = () => {
         <Route path='/admin/ProductEdit/:id' exact component={ProductEdit} />
         <Route path='/my-account/:id' exact component={UserAccountScreen} />
       </Switch>
-      <Footer /> 
-    </Router>
+       {/* <Footer /> */}
+       </Router>
   )
 }
 
