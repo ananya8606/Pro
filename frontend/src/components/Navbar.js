@@ -190,59 +190,59 @@ const Navbar = () => {
         </div>
         <ul className='shopping-categories'>
           <li className='inline-items'>
-            <Link to='/categories/Electronics'>Electronics</Link>
+            <Link to='/categories/Electronics'>Suup</Link>
             <ul className='inline-list'>
               <li>
                 <Link className='category-item' to='/category/Tv'>
-                  TV
+                  Cheap
                 </Link>
               </li>
               <li>
-                <Link to='/category/Mobile'>Mobile</Link>
+                <Link to='/category/Mobile'>Expensive</Link>
               </li>
             </ul>
           </li>
           <li className='inline-items'>
-            <Link to='/categories/Men Fashion'>Mens Fashion</Link>
+            <Link to='/categories/Men Fashion'>Tokri</Link>
             <ul className='inline-list'>
               <li>
-                <Link to='/category/Shirt'>Shirt</Link>
+                <Link to='/category/Shirt'>Cheap</Link>
               </li>
               <li>
-                <Link to='/category/Paint'>Paint</Link>
+                <Link to='/category/Paint'>Expensive</Link>
               </li>
             </ul>
           </li>
           <li className='inline-items'>
-            <Link to='/categories/Women Fashion'>Womens Fashion</Link>
+            <Link to='/categories/Women Fashion'>Bamboo Charcoal</Link>
             <ul className='inline-list'>
               <li>
-                <Link to='/category/Kurta'>Kurta</Link>
+                <Link to='/category/Kurta'>Cheap</Link>
               </li>
               <li>
-                <Link to='/category/Saree'>Saree</Link>
+                <Link to='/category/Saree'>Expensive</Link>
               </li>
             </ul>
           </li>
           <li className='inline-items'>
-            <Link to='/categories/Groceries'>Groceries</Link>
+            <Link to='/categories/Groceries'>Bamboo Furniture</Link>
             <ul className='inline-list'>
               <li>
-                <Link to='/category/Rice'>Rice</Link>
+                <Link to='/category/Rice'>Cheap</Link>
               </li>
               <li>
-                <Link to='/category/Cereals'>Cereals</Link>
+                <Link to='/category/Cereals'>Expensive</Link>
               </li>
             </ul>
           </li>
           <li className='inline-items'>
-            <Link to='/categories/Lifestyle'>Lifestyle</Link>
+            <Link to='/categories/Lifestyle'>Bamboo Flooring</Link>
             <ul className='inline-list'>
               <li>
-                <Link to='/category/Shampoo'>Shampoo</Link>
+                <Link to='/category/Shampoo'>Cheap</Link>
               </li>
               <li>
-                <Link to='/category/Deodrants'>Deodrants</Link>
+                <Link to='/category/Deodrants'>Expensive</Link>
               </li>
             </ul>
           </li>
