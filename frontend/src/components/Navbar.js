@@ -37,7 +37,7 @@ const Navbar = () => {
         </div>
 
         <Link to='/'>
-          <h3>DhamalaShop</h3>
+          <h3>ECOMM</h3>
         </Link>
         <div className='search-form'>
           <input
