@@ -57,24 +57,24 @@ const ProductCreate = ({ history }) => {
   }
   const subCategories = [
     [
-      { _id: 1, name: 'Tv' },
-      { _id: 2, name: 'Mobile' },
+      { _id: 1, name: 'Bamboo Sup' },
+      { _id: 2, name: 'Bamboo Tokri' },
     ],
     [
-      { _id: 1, name: 'Shirt' },
-      { _id: 2, name: 'Paint' },
+      { _id: 1, name: 'Bamboo Charcoal' },
+      { _id: 2, name: 'Bamboo Toothbrush' },
     ],
     [
-      { _id: 1, name: 'Kurta' },
-      { _id: 2, name: 'Saree' },
+      { _id: 1, name: 'Bamboo Chairs' },
+      { _id: 2, name: 'Bamboo Sofa' },
     ],
     [
-      { _id: 1, name: 'Rice' },
-      { _id: 2, name: 'Cereals' },
+      { _id: 1, name: 'Bamboo Flooring' },
+      { _id: 2, name: 'Bamboo Tissue Rolls' },
     ],
     [
-      { _id: 1, name: 'Shampoo' },
-      { _id: 2, name: 'Deodrants' },
+      { _id: 1, name: 'Bamboo Indoor Plants' },
+      { _id: 2, name: 'Bamboo Handicrafts' },
     ],
   ]
 
@@ -125,11 +125,11 @@ const ProductCreate = ({ history }) => {
                 onChange={(e) => setCategory(e.target.value)}
               >
                 <option value=''>Select the Category</option>
-                <option value='Electronics'>Electronics</option>
-                <option value='Men Fashion'>Men Fashion</option>
-                <option value='Women Fashion'>Women Fashion</option>
-                <option value='Groceries'>Groceries</option>
-                <option value='Lifestyle'>Lifestyle</option>
+                <option value='Kitchen'>Kitchen</option>
+                <option value='Personal Care'>Personal Care</option>
+                <option value='Furniture'>Women Fashion</option>
+                <option value='Flooring'>Groceries</option>
+                <option value='Decoration'>Lifestyle</option>
               </select>{' '}
             </div>
             <div className='control-form'>
@@ -142,7 +142,7 @@ const ProductCreate = ({ history }) => {
               >
                 {console.log(category)}
                 <option value=''>Select the Sub Category</option>
-                {category === 'Electronics' &&
+                {category === 'Kitchen' &&
                   subCategories[0].map((data) => (
                     <option
                       key={data._id}
@@ -152,7 +152,7 @@ const ProductCreate = ({ history }) => {
                       {data.name}
                     </option>
                   ))}
-                {category === 'Men Fashion' &&
+                {category === 'Personal Care' &&
                   subCategories[1].map((data) => (
                     <option
                       key={data._id}
@@ -162,7 +162,7 @@ const ProductCreate = ({ history }) => {
                       {data.name}
                     </option>
                   ))}
-                {category === 'Women Fashion' &&
+                {category === 'Furniture' &&
                   subCategories[2].map((data) => (
                     <option
                       key={data._id}
@@ -173,7 +173,7 @@ const ProductCreate = ({ history }) => {
                     </option>
                   ))}
 
-                {category === 'Groceries' &&
+                {category === 'Flooring' &&
                   subCategories[3].map((data) => (
                     <option
                       key={data._id}
@@ -183,7 +183,7 @@ const ProductCreate = ({ history }) => {
                       {data.name}
                     </option>
                   ))}
-                {category == 'Lifestyle' &&
+                {category == 'Decoration' &&
                   subCategories[4].map((data) => (
                     <option
                       key={data._id}
