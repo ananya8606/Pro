@@ -127,9 +127,9 @@ const ProductCreate = ({ history }) => {
                 <option value=''>Select the Category</option>
                 <option value='Kitchen'>Kitchen</option>
                 <option value='Personal Care'>Personal Care</option>
-                <option value='Furniture'>Women Fashion</option>
-                <option value='Flooring'>Groceries</option>
-                <option value='Decoration'>Lifestyle</option>
+                <option value='Furniture'>Furniture</option>
+                <option value='Flooring'>Flooring</option>
+                <option value='Decoration'>Decoration</option>
               </select>{' '}
             </div>
             <div className='control-form'>
