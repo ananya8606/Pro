@@ -190,59 +190,59 @@ const Navbar = () => {
         </div>
         <ul className='shopping-categories'>
           <li className='inline-items'>
-            <Link to='/categories/Electronics'>Suup</Link>
+            <Link to='/categories/Kitchen'>Kitchen</Link>
             <ul className='inline-list'>
               <li>
-                <Link className='category-item' to='/category/Tv'>
-                  Cheap
+                <Link className='category-item' to='/category/Bamboo Sup'>
+                  Bamboo Sup
                 </Link>
               </li>
               <li>
-                <Link to='/category/Mobile'>Expensive</Link>
+                <Link to='/category/Bamboo Tokri'>Bamboo Tokri</Link>
               </li>
             </ul>
           </li>
           <li className='inline-items'>
-            <Link to='/categories/Men Fashion'>Tokri</Link>
+            <Link to='/categories/Personal Care'>Personal Care</Link>
             <ul className='inline-list'>
               <li>
-                <Link to='/category/Shirt'>Cheap</Link>
+                <Link to='/category/Bamboo Charcoal'>Bamboo Charcoal</Link>
               </li>
               <li>
-                <Link to='/category/Paint'>Expensive</Link>
+                <Link to='/category/Bamboo Toothbrush'>Bamboo Toothbrush</Link>
               </li>
             </ul>
           </li>
           <li className='inline-items'>
-            <Link to='/categories/Women Fashion'>Bamboo Charcoal</Link>
+            <Link to='/categories/Furniture'>Furniture</Link>
             <ul className='inline-list'>
               <li>
-                <Link to='/category/Kurta'>Cheap</Link>
+                <Link to='/category/Bamboo Chairs'>Bamboo Chairs</Link>
               </li>
               <li>
-                <Link to='/category/Saree'>Expensive</Link>
+                <Link to='/category/Bamboo Sofa'>Bamboo Sofa</Link>
               </li>
             </ul>
           </li>
           <li className='inline-items'>
-            <Link to='/categories/Groceries'>Bamboo Furniture</Link>
+            <Link to='/categories/Flooring'>Flooring</Link>
             <ul className='inline-list'>
               <li>
-                <Link to='/category/Rice'>Cheap</Link>
+                <Link to='/category/Bamboo Flooring'>Bamboo Flooring</Link>
               </li>
               <li>
-                <Link to='/category/Cereals'>Expensive</Link>
+                <Link to='/category/Bamboo Tissue Rolls'>Bamboo Tissue Rolls</Link>
               </li>
             </ul>
           </li>
           <li className='inline-items'>
-            <Link to='/categories/Lifestyle'>Bamboo Flooring</Link>
+            <Link to='/categories/Decoration'>Decoration</Link>
             <ul className='inline-list'>
               <li>
-                <Link to='/category/Shampoo'>Cheap</Link>
+                <Link to='/category/Bamboo Indoor Plants'>Bamboo Indoor Plants</Link>
               </li>
               <li>
-                <Link to='/category/Deodrants'>Expensive</Link>
+                <Link to='/category/Bamboo Handicrafts'>Bamboo Handicrafts</Link>
               </li>
             </ul>
           </li>
