@@ -40,7 +40,7 @@ const Footer = () => {
   <div class="text-center text-white p-3">
 				<div className='footer-copyright'>
         © 2022 Copyright:
-        <a class="text-white p-3" href="https://mdbootstrap.com/">Ananya Gupta</a>
+        <a class="text-white p-3" href="https://mdbootstrap.com/">ECOMM</a>
         </div>
       </div>
     </footer>
