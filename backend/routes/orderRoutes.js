@@ -34,7 +34,6 @@ router.post(
         totalPrice,
       })
       const createdOrder = await order.save()
-
       res.status(201).json(createdOrder)
     }
   })
