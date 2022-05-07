@@ -151,7 +151,6 @@ const shoppingItems = [
     category: 'Mens Fashion',
     subCategory: 'Shirt',
     brandName: 'Cotton Shirt',
-
     cost: 4000,
     discount: 30,
     image: '/Images/products/shirt1.jpeg',
