@@ -9,7 +9,6 @@ import { protect, admin } from '../middleware/authMiddleware.js'
 import cloudinary from 'cloudinary'
 dotenv.config()
 const cloudinaryconfig = cloudinary.v2
-
 cloudinaryconfig.config({
   cloud_name:'ananyaiiitr',
   api_key:'574957229525692',
